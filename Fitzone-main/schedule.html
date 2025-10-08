@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly Class Schedule - FitZone Gym</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="schedulecss.css">
+</head>
+<body>
+<div class="top-bar">
+    <h1 class="brand-title">FitZone Gym</h1>
+  </div>
+
+  
+  <div class="schedule-container">
+    <h1>Weekly Class Schedule</h1>
+    <p class="intro">Check out our weekly schedule and select the sessions that match your goals and availability.</p>
+
+    <form id="scheduleForm">
+      <table class="schedule-table">
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+        <tr>
+          <td>6:00  7:00 AM</td>
+          <td><input type="checkbox" name="schedule" value="Yoga - Mon AM"> Yoga</td>
+          <td><input type="checkbox" name="schedule" value="Zumba - Tue AM"> Zumba</td>
+          <td><input type="checkbox" name="schedule" value="Yoga - Wed AM"> Yoga</td>
+          <td><input type="checkbox" name="schedule" value="Cardio - Thu AM"> Cardio</td>
+          <td><input type="checkbox" name="schedule" value="Zumba - Fri AM"> Zumba</td>
+          <td><input type="checkbox" name="schedule" value="Yoga - Sat AM"> Yoga</td>
+        </tr>
+        <tr>
+          <td>8:00  9:00 AM</td>
+          <td><input type="checkbox" name="schedule" value="Cardio - Mon AM"> Cardio</td>
+          <td><input type="checkbox" name="schedule" value="Weight Training - Tue AM"> Weight</td>
+          <td><input type="checkbox" name="schedule" value="HIIT - Wed AM"> HIIT</td>
+          <td><input type="checkbox" name="schedule" value="Cardio - Thu AM"> Cardio</td>
+          <td><input type="checkbox" name="schedule" value="CrossFit - Fri AM"> CrossFit</td>
+          <td><input type="checkbox" name="schedule" value="Zumba - Sat AM"> Zumba</td>
+        </tr>
+        <tr>
+          <td>5:00  6:00 PM</td>
+          <td><input type="checkbox" name="schedule" value="Weight Training - Mon PM"> Weight</td>
+          <td><input type="checkbox" name="schedule" value="Yoga - Tue PM"> Yoga</td>
+          <td><input type="checkbox" name="schedule" value="Cardio - Wed PM"> Cardio</td>
+          <td><input type="checkbox" name="schedule" value="Zumba - Thu PM"> Zumba</td>
+          <td><input type="checkbox" name="schedule" value="HIIT - Fri PM"> HIIT</td>
+          <td><input type="checkbox" name="schedule" value="Strength Training - Sat PM"> Strength</td>
+        </tr>
+        <tr>
+          <td>7:00  8:00 PM</td>
+          <td><input type="checkbox" name="schedule" value="CrossFit - Mon PM"> CrossFit</td>
+          <td><input type="checkbox" name="schedule" value="Cardio - Tue PM"> Cardio</td>
+          <td><input type="checkbox" name="schedule" value="Strength Training - Wed PM"> Strength</td>
+          <td><input type="checkbox" name="schedule" value="Yoga - Thu PM"> Yoga</td>
+          <td><input type="checkbox" name="schedule" value="Zumba - Fri PM"> Zumba</td>
+          <td>Rest Day</td>
+        </tr>
+      </table>
+
+      <p class="note">Note: Sunday is a rest day for all members.</p>
+
+      <div class="btn-center">
+        <button type="submit" class="btn-submit">Finalize My Schedule</button>
+        <a href="index.php" class="btn-back">← Back to Home</a>
+      </div>
+    </form>
+  </div>
+
+</body>
+</body>
+  
+  <script src="cookie.js"></script>
+</html>

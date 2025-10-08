@@ -1,0 +1,28 @@
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  background: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 6px;
+  margin-top: 4px;
+}
+
+.faq-answer.show {
+  display: block;
+}

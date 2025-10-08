@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register New Member</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+<div class="top-bar">
+    <h1 class="brand-title">FitZone Gym</h1>
+</div>
+
+<div class="register-container">
+    <h2>Register New Member</h2>
+    
+    <form action="register.php" method="POST" style="text-align: center; border: 1px solid black; padding: 20px;">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required><br>
+        
+        <label>Age:</label>
+        <input type="number" name="age" placeholder="Enter your age" required><br>
+        
+        <label>Mobile Number:</label>
+        <input type="text" name="mobileno" placeholder="Enter your Mobile No." required><br>
+        
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required><br>
+
+        <label>Password: </label>
+        <input type="password" name="password" placeholder="Enter your password" required><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" name="confirm_password" placeholder="Enter your password"required>
+
+              
+        
+        <button type="submit">Register</button>
+        <button type="button" onclick="window.location.href='index.php'">Back</button>
+    </form>
+</div>
+
+<script src="cookie.js"></script>
+</body>
+</html>

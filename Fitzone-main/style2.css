@@ -1,0 +1,89 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+.top-bar {
+  background-color: #1a1a1a;
+  padding: 15px 25px;
+  border-bottom: 2px solid #555;
+  text-align: center;
+}
+.brand-title {
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.about-container {
+  max-width: 900px;
+  margin: 60px auto;
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+.about-container h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.about-container h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-left: 4px solid #888888;
+  padding-left: 10px;
+}
+.about-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #dddddd;
+}
+.about-container ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.about-container ul li {
+  margin-bottom: 10px;
+  color: #eeeeee;
+}
+strong {
+  color: #ffffff;
+}
+.btn-center {
+  text-align: center;
+  margin-top: 25px;
+}
+.btn-back {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #111;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-back:hover {
+  background-color: #555555;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+    margin: 30px 15px;
+  }
+  .about-container h1 {
+    font-size: 28px;
+  }
+  .about-container h2 {
+    font-size: 20px;
+  }
+}
